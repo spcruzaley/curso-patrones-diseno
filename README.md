@@ -25,7 +25,7 @@ Estos patrones tratan sobre cómo **crear objetos** de manera flexible, evitando
 
 3. **Builder**  
    Facilita la construcción de objetos complejos dividiéndolo en pasos más simples. Ideal para clases con muchos parámetros.  
-   🔜 Video próximamente.
+   👉 [Video en YouTube](https://youtu.be/Onml2IKpMac)
 
 4. **Prototype**  
    Permite clonar objetos, reduciendo el costo de creación cuando los objetos son complejos de instanciar.  
