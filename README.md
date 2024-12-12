@@ -29,7 +29,7 @@ Estos patrones tratan sobre cómo **crear objetos** de manera flexible, evitando
 
 4. **Prototype**  
    Permite clonar objetos, reduciendo el costo de creación cuando los objetos son complejos de instanciar.  
-   🔜 Video próximamente.
+   👉 [Video en YouTube](https://youtu.be/F9O3_bTj9Wg)
 
 ---
 
