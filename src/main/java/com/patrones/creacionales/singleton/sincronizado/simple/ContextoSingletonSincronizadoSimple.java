@@ -1,10 +1,10 @@
-package com.patrones.singleton.sincronizado.mejorado;
+package com.patrones.creacionales.singleton.sincronizado.simple;
 
-public class ContextoSingletonSincronizadoMejorado {
-    public static void main(String[] args) throws InterruptedException {
+public class ContextoSingletonSincronizadoSimple {
+    public static void main(String[] args) {
         // Crear múltiples hilos para probar la sincronización
         Runnable task = () -> {
-            SingletonSincronizadoMejorado singleton = SingletonSincronizadoMejorado.getInstance();
+            SingletonSincronizadoSimple singleton = SingletonSincronizadoSimple.getInstance();
             System.out.println("hashCode de la instancia: " + singleton.hashCode() + " - " + Thread.currentThread().getName());
         };
 
@@ -22,3 +22,4 @@ public class ContextoSingletonSincronizadoMejorado {
         thread5.start();
     }
 }
+

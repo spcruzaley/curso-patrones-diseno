@@ -2,3 +2,5 @@
 out/
 patronesDeDiseno.iml
 target/
+.DS_Store
+src/.DS_Store

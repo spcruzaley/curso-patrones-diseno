@@ -1,4 +1,4 @@
-package com.patrones.singleton.sincronizado.simple;
+package com.patrones.creacionales.singleton.sincronizado.simple;
 
 public class SingletonSincronizadoSimple {
     // Instancia única de la clase

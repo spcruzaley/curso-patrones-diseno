@@ -1,4 +1,4 @@
-package com.patrones.singleton;
+package com.patrones.creacionales.singleton;
 
 public class Singleton {
 

@@ -1,18 +1,16 @@
-package com.patrones.prototype.sinpatron;
+package com.patrones.creacionales.prototype.interna;
 
-import com.patrones.prototype.ProductoAPIClient;
-import com.patrones.prototype.Vendedor;
+import com.patrones.creacionales.prototype.ProductoAPIClient;
 
 import java.util.Map;
 
 // Clase Producto que será nuestro prototipo
-public class ProductoSinPatron {
+public class ProductoInterno implements Cloneable {
     private String productoId;
     private String nombre;
     private String descripcion;
     private double precioBase;
     private String moneda;
-    private Vendedor vendedor;
 
     // Campos adicionales que podrían variar sin necesitar recargar la info base
     // Por ejemplo: descuento, impuestos, etc.
@@ -20,12 +18,22 @@ public class ProductoSinPatron {
     private double impuestos;    // en porcentaje
 
     // Constructor que obtiene los datos del producto desde el API
-    public ProductoSinPatron(String productoId) {
+    public ProductoInterno(String productoId) {
         this.productoId = productoId;
         cargarDatosDesdeAPI(productoId);
         this.descuento = 0.0;
         this.impuestos = 0.0;
-        this.vendedor = new Vendedor("Generico", "China");
+    }
+
+    @Override
+    public ProductoInterno clone() {
+        try {
+            // Llamamos a super.clone() que realiza una clonación superficial
+            return (ProductoInterno) super.clone();
+        } catch (CloneNotSupportedException e) {
+            // Esto no debería suceder ya que implementamos Cloneable
+            throw new RuntimeException("No se pudo clonar el objeto", e);
+        }
     }
 
     // Método privado que simula la carga desde el API
@@ -64,8 +72,6 @@ public class ProductoSinPatron {
         System.out.println("Descuento: " + descuento + "%");
         System.out.println("Impuestos: " + impuestos + "%");
         System.out.println("Precio Final: " + calcularPrecioFinal() + " " + moneda);
-        System.out.println("Vendedor: " + vendedor);
         System.out.println("===============================");
     }
 }
-

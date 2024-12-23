@@ -1,6 +1,6 @@
-package com.patrones.singleton.sincronizado.mejorado;
+package com.patrones.creacionales.singleton.sincronizado.mejorado;
 
-import com.patrones.singleton.sincronizado.simple.SingletonSincronizadoSimple;
+import com.patrones.creacionales.singleton.sincronizado.simple.SingletonSincronizadoSimple;
 
 public class SingletonSincronizadoMejorado {
     // Instancia única de la clase
