@@ -38,7 +38,7 @@ Estos patrones ayudan a organizar las relaciones entre clases y objetos, haciend
 
 1. **Adapter**  
    Actúa como un puente entre dos interfaces incompatibles para que trabajen juntas.  
-   🔜 Video próximamente.
+   👉 [Video en YouTube](https://youtu.be/vqelJ7g6xDo)
 
 2. **Bridge**  
    Separa la abstracción de su implementación para que ambos puedan variar independientemente.  
