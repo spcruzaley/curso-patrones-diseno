@@ -42,7 +42,7 @@ Estos patrones ayudan a organizar las relaciones entre clases y objetos, haciend
 
 2. **Bridge**  
    Separa la abstracción de su implementación para que ambos puedan variar independientemente.  
-   🔜 Video próximamente.
+   👉 [Video en YouTube](https://youtu.be/XUEpFY5CkLw)
 
 3. **Decorator**  
    Añade responsabilidades a un objeto dinámicamente sin alterar su estructura.  
