@@ -46,7 +46,7 @@ Estos patrones ayudan a organizar las relaciones entre clases y objetos, haciend
 
 3. **Decorator**  
    Añade responsabilidades a un objeto dinámicamente sin alterar su estructura.  
-   🔜 Video próximamente.
+   👉 [Video en YouTube](https://youtu.be/rsy2QobizN4)
 
 4. **Facade**  
    Proporciona una interfaz simplificada para un sistema complejo, ocultando sus detalles internos.  
