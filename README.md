@@ -50,7 +50,7 @@ Estos patrones ayudan a organizar las relaciones entre clases y objetos, haciend
 
 4. **Facade**  
    Proporciona una interfaz simplificada para un sistema complejo, ocultando sus detalles internos.  
-   🔜 Video próximamente.
+   👉 [Video en YouTube](https://youtu.be/4uwKXZ0SvaE)
 
 5. **Proxy**  
    Controla el acceso a un objeto, permitiendo realizar operaciones adicionales antes o después de interactuar con él.  
