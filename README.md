@@ -54,7 +54,7 @@ Estos patrones ayudan a organizar las relaciones entre clases y objetos, haciend
 
 5. **Proxy**  
    Controla el acceso a un objeto, permitiendo realizar operaciones adicionales antes o después de interactuar con él.  
-   🔜 Video próximamente.
+   👉 [Video en YouTube](https://youtu.be/3AoR6PtqpKk)
 
 ---
 
