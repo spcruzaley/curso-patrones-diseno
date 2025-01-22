@@ -63,7 +63,7 @@ Estos patrones se centran en cómo las clases y los objetos **interactúan** ent
 
 1. **Cadena de Responsabilidad**  
    Permite que varias clases tengan la oportunidad de manejar una solicitud, pasándola a lo largo de una cadena.  
-   🔜 Video próximamente.
+   👉 [Video en YouTube](https://youtu.be/WyzYbFOsnOs)
 
 2. **Command**  
    Encapsula una solicitud como un objeto, permitiendo parametrizar acciones y soportar operaciones como deshacer.  
