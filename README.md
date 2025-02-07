@@ -67,7 +67,7 @@ Estos patrones se centran en cómo las clases y los objetos **interactúan** ent
 
 2. **Command**  
    Encapsula una solicitud como un objeto, permitiendo parametrizar acciones y soportar operaciones como deshacer.  
-   🔜 Video próximamente.
+   👉 [Video en YouTube](https://youtu.be/3y5w4YtSHQY)
 
 3. **Observer**  
    Define una relación 1 a muchos, de modo que cuando un objeto cambia su estado, sus dependientes son notificados.  
